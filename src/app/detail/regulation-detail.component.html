@@ -1,0 +1,21 @@
+<div *ngIf="hero">
+  <h2>{{hero.name}} Details</h2>
+  <ul class="list-group">
+    <li class="list-group-header">County</li>  
+    <li class="list-group-item">{{hero.county}}</li>
+    <li class="list-group-header">State</li>  
+    <li class="list-group-item">{{hero.state}}</li>
+    <li class="list-group-header">Landmark Type</li>  
+    <li class="list-group-item">{{hero.landmark_type}}</li>
+    <li class="list-group-header">Open Season Start</li>  
+    <li class="list-group-item">{{hero.open_season_start}}</li>
+    <li class="list-group-header">Open Season End</li>  
+    <li class="list-group-item">{{hero.open_season_end}}</li>
+  </ul>
+  <div>
+    <label>name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name" />
+   </div>
+  <button (click)="goBack()">Back</button>
+  <button (click)="save()">Save</button>
+</div>
