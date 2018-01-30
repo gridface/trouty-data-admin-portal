@@ -1,2 +1,2 @@
 # trouty-data-admin-portal
-Example Project Using Angular/Bootstrap/Node/Mongo
+Admin tool for the Trouty Regulations API Using Angular/Bootstrap/Node/Mongo.
