@@ -1,7 +1,7 @@
 FLOW:
 
 hero.ts
---regulation.ts
+regulation.ts
 hero.service.ts
 regulation.service.ts
 hero.search.service.ts
